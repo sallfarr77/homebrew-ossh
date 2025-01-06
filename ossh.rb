@@ -1,10 +1,10 @@
 class Ossh < Formula
   include Language::Python::Virtualenv
-  
+
   desc "Professional SSH Connection Manager"
   homepage "https://github.com/sallfarr77/ossh"
-  url "https://github.com/sallfarr77/ossh/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "39f3b2802cd10237a96801cda7bb2a4b30b27ea7e2f963d24dcf903ed392e56a"
+  url "https://github.com/sallfarr77/ossh/archive/refs/tags/v1.0.1.tar.gz"
+  sha256 "f7a49ed48d565126e1269b7e2f8680288ab86ca3e6219b6ae795fc0a2effb8e9"  
   license "MIT"
 
   depends_on "python@3.11"
@@ -15,6 +15,7 @@ class Ossh < Formula
   end
 
   def install
+    virtualenv_create(libexec, "python3.11")
     virtualenv_install_with_resources
   end
 
