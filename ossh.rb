@@ -3,7 +3,7 @@ class Ossh < Formula
   
   desc "Professional SSH Connection Manager"
   homepage "https://github.com/sallfarr77/ossh"
-  url "https://github.com/sallfarr77/ossh/releases/tag/v1.0.0"
+  url "https://github.com/sallfarr77/ossh/archive/refs/tags/v1.0.0.tar.gz"
   sha256 "9882e171eb9aa2de604df589d81e6acbce08e5703eb9d1f3bb7237f975728c7f"
   license "MIT"
 
