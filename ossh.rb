@@ -11,7 +11,7 @@ class Ossh < Formula
 
   resource "rich" do
     url "https://files.pythonhosted.org/packages/source/r/rich/rich-13.7.0.tar.gz"
-    sha256 "5cb5123b5cf9ee70584244246816e9114227e0b98ad9176eede6ad54bf5403fa"
+    sha256 "9882e171eb9aa2de604df589d81e6acbce08e5703eb9d1f3bb7237f975728c7f"
   end
 
   def install
